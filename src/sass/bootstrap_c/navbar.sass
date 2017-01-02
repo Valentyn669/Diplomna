@@ -1,0 +1,33 @@
+@import "common/colors"
+
+.container-menu
+	position: relative
+	background: white
+	padding: 10px
+	
+.logo
+	float: left
+	padding-top: 30px
+
+.nav
+	float: right
+.nav li 
+	float: left
+.nav  li a, #touch-menu
+	font-family: "HelveticaMedium", sans-serif
+	display: block;
+	padding: 40px 25px
+	font-weight: bold
+	font-size: 14px
+	text-transform: uppercase
+	color: $menu-bar-font
+	text-decoration: none
+	transition: 0.5s
+.nav li a:hover
+	color: $menu-bar-font-active
+
+#touch-menu,
+	display: none
+#touch-menu:hover	
+	color: $touch-menu-hover
+
