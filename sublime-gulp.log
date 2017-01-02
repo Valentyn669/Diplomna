@@ -13,3 +13,6 @@
 				<a href="" class="nav-link"><i class="fa fa-vk"></i></a>
 			</nav>
 		</div>	
+
+01-02-2017 19:45:
+(node:4904) DeprecationWarning: Calling an asynchronous function without callback is deprecated.
