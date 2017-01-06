@@ -1699,6 +1699,10 @@ select.form-control-lg:not([size]):not([multiple]), .input-group-lg > select.for
   .form-inline .has-feedback .form-control-feedback {
     top: 0; } }
 
+.mainbox {
+  background-color: #fff;
+  margin: -100px 20px; }
+
 .btn {
   display: inline-block;
   font-weight: normal;
