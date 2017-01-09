@@ -2,6 +2,7 @@
 /** Bootstrap **/
 /** Bootstrap **/
 /*! normalize.css v4.0.0 | MIT License | github.com/necolas/normalize.css */
+@import url("https://fonts.googleapis.com/css?family=Lato:700");
 html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
@@ -569,6 +570,13 @@ dl.row > dd + dt {
   background: url(/img/norway.jpg) no-repeat;
   background-size: cover;
   height: 400px;
+  background-position: center; }
+
+.footerimg {
+  margin-top: 10px;
+  background: url(/img/social.jpg) no-repeat;
+  background-size: none;
+  height: 150px;
   background-position: center; }
 
 code,
@@ -3971,6 +3979,7 @@ button.list-group-item-danger {
   float: none;
   margin-right: auto;
   margin-left: auto;
+  margin-top: -45px;
   padding-left: 37px; }
 
 a.btn-social {
@@ -4242,11 +4251,6 @@ button.close {
 @media (min-width: 992px) {
   .modal-lg {
     max-width: 900px; } }
-
-hr {
-  height: 5px;
-  border: 0px solid #75B2BF;
-  border-top-width: 1px; }
 
 .tooltip {
   position: absolute;
@@ -5112,6 +5116,33 @@ a.text-danger:focus, a.text-danger:hover {
 footer {
   background-color: #272727;
   color: #75B2BF; }
+
+hr {
+  height: 5px;
+  border: 0px solid #75B2BF;
+  border-top-width: 1px; }
+
+.touch {
+  padding-top: 15px;
+  text-align: center; }
+
+li {
+  list-style-type: none; }
+
+a {
+  text-decoration: inherit;
+  color: #75B2BF; }
+
+a:hover {
+  color: #0367A6; }
+
+a:link {
+  text-decoration: none; }
+
+.footmenu {
+  margin-top: 70px;
+  font-size: 25px;
+  font-family: 'Lato', sans-serif, bold; }
 
 /*!
  *  Font Awesome 4.7.0 by @davegandy - http://fontawesome.io - @fontawesome
