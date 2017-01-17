@@ -3811,11 +3811,7 @@ base::-moz-progress-bar,
     color: black;
     float: right;
     height: 40px;
-    margin: -40px -10px 0 0; }
-  .carousel {
-    height: 360px; }
-  .carousel-item {
-    height: 360px; } }
+    margin: -40px -10px 0 0; } }
 
 @media only screen and (max-width: 447px) {
   .footerimg {
