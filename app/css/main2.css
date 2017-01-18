@@ -3777,7 +3777,8 @@ base::-moz-progress-bar,
 
 @media only screen and (max-width: 991px) {
   .container-menu {
-    height: 50px; }
+    height: 50px;
+    margin: 0px 5px; }
   .logo {
     padding-top: 0; }
   .logo img {
@@ -3794,6 +3795,7 @@ base::-moz-progress-bar,
   .nav li {
     float: none; }
   .nav li a {
+    margin: 5px 0px;
     color: #75B2BF;
     border-top: 2px solid #d7d6d6;
     border-left: 3px solid transparent;
@@ -3811,7 +3813,7 @@ base::-moz-progress-bar,
     color: black;
     float: right;
     height: 40px;
-    margin: -40px -10px 0 0; } }
+    margin: -40px 10px 0 0; } }
 
 @media only screen and (max-width: 447px) {
   .footerimg {
@@ -4615,11 +4617,20 @@ button.close {
   .carousel-indicators {
     bottom: 20px; } }
 
-carousel-item {
+.carousel-item {
   background-position: center center; }
 
 #slider-blog {
   overflow: hidden; }
+
+#slider-blog1 {
+  overflow: hidden; }
+
+#slider-blog1 .carousel-item {
+  height: 400px; }
+
+#slider-blog1 .left-control, #slider-blog1 .right-control {
+  top: 40%; }
 
 .carousel-inner .carousel-item {
   background-repeat: no-repeat;
