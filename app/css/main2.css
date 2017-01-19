@@ -3819,6 +3819,20 @@ base::-moz-progress-bar,
   .footerimg {
     height: 220px; } }
 
+@media only screen and (max-width: 650px) {
+  .carsent {
+    font-size: 50px; } }
+
+@media only screen and (min-width: 650px) {
+  .carsent {
+    font-size: 70px; }
+  .boxed {
+    bottom: 70px; } }
+
+@media only screen and (min-width: 852px) {
+  .boxed {
+    bottom: 40px; } }
+
 .list-group {
   padding-left: 0;
   margin-bottom: 0; }
@@ -4659,6 +4673,14 @@ button.close {
 
 .left-control:hover, .right-control:hover {
   color: white; }
+
+.boxed {
+  background: rgba(39, 39, 39, 0.5);
+  padding-bottom: 15px; }
+
+.carsent {
+  text-align: center;
+  font-weight: bold; }
 
 /** Bootstrap **/
 .bg-inverse {
