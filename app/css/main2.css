@@ -566,17 +566,17 @@ dl.row > dd + dt {
   font-size: 90%;
   color: #818a91; }
 
-#imageonly {
-  background: url(/img/norway.jpg) no-repeat;
-  background-size: cover;
-  height: 400px;
-  background-position: center; }
-
 .footerimg {
   margin-top: 10px;
   background: url(/img/social.jpg);
   background-size: none;
   height: 150px;
+  background-position: center; }
+
+.recentimg {
+  background: url(/img/paris.jpg);
+  background-size: none;
+  height: 169px;
   background-position: center; }
 
 code,
@@ -1283,6 +1283,12 @@ pre {
     margin-left: 83.33333%; }
   .offset-xl-11 {
     margin-left: 91.66667%; } }
+
+.recentset a {
+  color: black; }
+
+.recentset a:hover {
+  color: black; }
 
 .table {
   width: 100%;
@@ -2161,6 +2167,14 @@ input[type="submit"].btn-block,
 input[type="reset"].btn-block,
 input[type="button"].btn-block {
   width: 100%; }
+
+.butcenter {
+  margin: 0;
+  text-align: center; }
+
+.recenthr {
+  width: 180px;
+  margin-left: 0px; }
 
 /** Bootstrap **/
 .fade {
