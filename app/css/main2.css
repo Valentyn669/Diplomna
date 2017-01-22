@@ -579,6 +579,29 @@ dl.row > dd + dt {
   height: 169px;
   background-position: center; }
 
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
+
+.hov {
+  width: 300px;
+  height: 169px;
+  position: relative;
+  border: 1px solid #333;
+  margin: 2%;
+  overflow: hidden;
+  width: 300px; }
+  .hov img {
+    max-width: 100%;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s; }
+  .hov:hover img {
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1); }
+
 code,
 kbd,
 pre,
