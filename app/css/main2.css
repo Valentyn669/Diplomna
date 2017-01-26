@@ -586,44 +586,58 @@ dl.row > dd + dt {
   padding: 0; }
 
 .hov {
-  width: 300px;
-  height: 169px;
   position: relative;
-  border: 1px solid #333;
-  margin: 2%;
   overflow: hidden;
-  width: 300px; }
-  .hov img {
-    max-width: 100%;
-    -webkit-transition: all 0.3s;
-    transition: all 0.3s; }
+  max-width: 100%;
+  text-align: center; }
   .hov:hover img {
     -webkit-transform: scale(1.1);
     -ms-transform: scale(1.1);
     transform: scale(1.1); }
 
+.hov img {
+  width: 100%;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s; }
+
 .hovcircle {
-  width: 300px;
-  height: 300px;
-  position: relative;
-  border: 1px solid #333;
-  -webkit-border-radius: 50%;
-  border-radius: 50%;
-  margin: 2%;
   overflow: hidden;
-  width: 300px;
   -webkit-transition: all .2s ease-in-out;
-  transition: all .2s ease-in-out; }
-  .hovcircle img {
-    max-width: 100%; }
+  transition: all .2s ease-in-out;
+  text-align: center; }
   .hovcircle:hover {
     -webkit-transform: scale(1.1);
     -ms-transform: scale(1.1);
     transform: scale(1.1); }
 
+.hovcircle img {
+  border: 1px solid #333;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  width: 500px;
+  height: 500px;
+  text-align: center; }
+
 .mid {
-  text-align: center;
-  padding-right: 30px; }
+  text-align: center; }
+
+.content {
+  width: 100%;
+  text-align: center; }
+  .content .single {
+    -webkit-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+    overflow: hidden; }
+    .content .single:hover {
+      -webkit-transform: scale(1.1);
+      -ms-transform: scale(1.1);
+      transform: scale(1.1); }
+    .content .single .single-img img {
+      width: 80%;
+      height: 0 auto;
+      border: 1px solid #333;
+      -webkit-border-radius: 50%;
+      border-radius: 50%; }
 
 code,
 kbd,
@@ -3844,6 +3858,10 @@ base::-moz-progress-bar,
   list-style: none; }
 
 @media only screen and (max-width: 991px) {
+  .footmenu {
+    text-align: center; }
+  .hov {
+    max-width: 100%; }
   .container-menu {
     height: 50px;
     margin: 0px 5px; }
@@ -3900,6 +3918,14 @@ base::-moz-progress-bar,
 @media only screen and (min-width: 852px) {
   .boxed {
     bottom: 40px; } }
+
+@media only screen and (max-width: 768px) {
+  .item-img {
+    margin: 0px 129px 0px 129px; } }
+
+@media only screen and (max-width: 544px) {
+  .item-img {
+    margin: 0px 129px 0px 129px; } }
 
 .list-group {
   padding-left: 0;
@@ -5273,8 +5299,7 @@ a:link {
 
 .footmenu {
   font-size: 25px;
-  font-family: 'Lato', sans-serif, bold;
-  margin-left: -45px; }
+  font-family: 'Lato', sans-serif, bold; }
 
 .botbot {
   margin-bottom: 20px; }
