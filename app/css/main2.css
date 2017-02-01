@@ -629,13 +629,12 @@ dl.row > dd + dt {
     transition: all .2s ease-in-out;
     overflow: hidden; }
     .content .single:hover {
-      -webkit-transform: scale(1.1);
-      -ms-transform: scale(1.1);
-      transform: scale(1.1); }
+      -webkit-transform: scale(1.03);
+      -ms-transform: scale(1.03);
+      transform: scale(1.03); }
     .content .single .single-img img {
       width: 80%;
       height: 0 auto;
-      border: 1px solid #333;
       -webkit-border-radius: 50%;
       border-radius: 50%; }
 
@@ -3925,7 +3924,7 @@ base::-moz-progress-bar,
 
 @media only screen and (max-width: 544px) {
   .item-img {
-    margin: 0px 129px 0px 129px; } }
+    margin: 0px 1px 0px 1px; } }
 
 .list-group {
   padding-left: 0;
