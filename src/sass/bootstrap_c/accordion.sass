@@ -1,0 +1,28 @@
+.accordion
+  width: 100%
+  max-width: 100%
+.accordion h4 
+  text-align: center
+.accordion-header
+  text-align: center
+  display: block
+  padding: 15px 20px
+  background: $menu-bar-font
+  color: white
+  text-decoration: none
+  text-transform: uppercase
+  text-shadow: 1px 1px 0 rgba(0,0,0,0.1)
+  margin-bottom: 5px
+
+.accordion-content p
+  margin: 10px
+
+.accordion-content
+  height: 0
+  overflow: hidden
+  -webkit-transition: height 400ms ease
+  transition: height 400ms ease
+
+.accordion-content:target
+  height: 200px
+  overflow-y: scroll
