@@ -3970,7 +3970,7 @@ base::-moz-progress-bar,
   .nav li {
     float: none; }
   .nav li a {
-    margin: 5px 0px;
+    margin: 0px 0px;
     color: #75B2BF;
     border-top: 2px solid #d7d6d6;
     border-left: 3px solid transparent;
