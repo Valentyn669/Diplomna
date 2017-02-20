@@ -567,12 +567,12 @@ dl.row > dd + dt {
   color: #818a91; }
 
 .footerimg {
-  background: url(/img/social.jpg);
+  background: url(../img/social.jpg);
   background-size: none;
   height: 150px; }
 
 .imgbg {
-  background: url(/img/bg.png);
+  background: url(../img/bg.png);
   background-size: none;
   background-position: center;
   background-size: cover; }
@@ -603,13 +603,13 @@ dl.row > dd + dt {
 
 .subscribeimg {
   margin-bottom: -10px;
-  background: url(/img/subscribe.jpg) no-repeat;
+  background: url(../img/subscribe.jpg) no-repeat;
   background-size: cover;
   height: 420px;
   background-position: 50% 70%; }
 
 .recentimg {
-  background: url(/img/paris.jpg);
+  background: url(../img/paris.jpg);
   background-size: none;
   height: 169px;
   background-position: center; }
